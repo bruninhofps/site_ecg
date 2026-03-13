@@ -4,3 +4,44 @@ img{
     text-align: justify;
     
 }
+
+.rodape {
+    background-color: #600000; /* Tom de vinho do print */
+    color: #f1c40f; /* Tom dourado/bege para os títulos */
+    padding: 40px 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.rodape-container {
+    display: flex;
+    justify-content: space-around; /* Espaça as colunas igualmente */
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Para quebrar linha no celular */
+}
+
+.rodape-coluna {
+    margin-bottom: 30px;
+    min-width: 250px;
+}
+
+.rodape-coluna h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.rodape-coluna p, .rodape-coluna a {
+    color: #fff; /* Texto branco como no print */
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.rodape-direitos {
+    background-color: #555; /* Fundo cinza da base */
+    color: #ccc;
+    text-align: left;
+    padding: 15px 40px;
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
