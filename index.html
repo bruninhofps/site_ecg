@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="style.css">
     <style>
         html { scroll-behavior: smooth; }
-        .bg-ecg { background-color: #000; }
-        .text-ecg { color: #FFF; }
+        .bg-ecg { background-color: #000;}
+        .txt-ecg { background-color: #000;}
     </style>
 </head>
 <body class="font-sans bg-gray-50 text-gray-900">
@@ -27,10 +27,9 @@
 
     <header class="sticky top-0 z-50 bg-white shadow-md">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="text-3xl font-bold text-ecg tracking-tighter">
+            <span class="text-3xl font-bold text-ecg tracking-tighter">
                 <img src="Logo Fundo preto.png" alt="Logo da ECG Contabilidade">
-                ECG<span class="text-red-500 underline">ECG CONTABILIDADE</span>
-            </div>
+            </span>
             
             <ul class="hidden md:flex space-x-8 font-medium">
                 <li><a href="#" class="hover:text-blue-600">Início</a></li>
@@ -90,13 +89,13 @@
                 <h3 class="text-3xl font-bold mb-6">Fale com um Especialista</h3>
                 <p class="text-gray-300 mb-8">Preencha o formulário ao lado e nossa equipe entrará em contato em até 24 horas.</p>
                 <ul class="space-y-4">
-                    <li><i class="fas fa-map-marker-alt mr-3 text-blue-400"></i> Avenida Baltazar de Oliveira Garcia, 3035 - Porto Alegre/RS</li>
-                    <li><i class="fas fa-envelope mr-3 text-blue-400"></i> contato@ecgcontabil.com.br</li>
-                    <li><i class="fab fa-instagram mr-3 text-blue-400"></i> @ecgcontabilidadeltda</li>
+                    <li><i class="fas fa-map-marker-alt mr-3 text-blue-400"></i> <a href="https://maps.google.com/?cid=14728345014792564059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ" target="_blank">Avenida Baltazar de Oliveira Garcia, 3035 - Porto Alegre/RS</a></li>
+                    <li><i class="fas fa-envelope mr-3 text-blue-400"></i> <a href="mailto:contato@ecgcontabil.com.br" target="_blank">contato@ecgcontabil.com.br</a></li>
+                    <li><i class="fab fa-instagram mr-3 text-blue-400"></i> <a href="https://www.instagram.com/ecgcontabilidadeltda" target="_blank"> @ecgcontabilidadeltda</a></li>
                 </ul>
             </div>
             
-            <form action="https://formspree.io/f/mjgavkdv" method="POST" class="bg-white p-8 rounded-lg shadow-lg text-gray-800">
+            <form action="https://formspree.io/f/xpqynogy" method="POST" class="bg-white p-8 rounded-lg shadow-lg text-gray-800">
                 <div class="mb-4">
                     <label class="block text-sm font-bold mb-2">Nome Completo</label>
                     <input type="text" name="nome" class="w-full p-3 border rounded focus:outline-blue-500" placeholder="Digite seu nome" required>

@@ -46,11 +46,12 @@ img{
     font-size: 0.8rem;
 }
 
-.qs{
-    text-align: center;
+.quem-somos{
+   font-family: "Montserrat", sans-serif;
+   font-size: small;
+   color: #600000;
+    width: auto;
+    text-align: justify;
+    margin: 100px;
     
-}
-
-.txt{
-    text-align: center;
 }
